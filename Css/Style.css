@@ -335,3 +335,56 @@ header#site-header {
   letter-spacing: 1px;
 }
  /* CATEGORIES */
+
+ /* FEATURES */
+
+ .features p {
+  font-size: 17px;
+  font-weight: 300;
+ }
+
+ .box-wrap {
+  padding: 40px 40px 20px 40px;
+  transition: all 0.5s;
+  border-radius: 8px;
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
+  position: relative;
+  border: 1px solid #eee;
+ }
+
+ .box-wrap:hover {
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
+ }
+
+ .box-wrap:hover .features__icon {
+  color: white;
+  background: #ff6600;
+ }
+
+ .features__top {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+ }
+
+ .features__top .features__icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgb(248, 247, 255);
+  color: #ff6600;
+  border-radius: 5px;
+  transition: all .5s;
+ }
+
+ .features__top .features__info {
+  line-height: 5px;
+ }
+
+ .features__top .features__info h4 {
+  font-weight: 600;
+ }
+
+ /* FEATURES */
