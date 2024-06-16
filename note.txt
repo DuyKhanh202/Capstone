@@ -2,3 +2,6 @@ Lê Nguyễn Duy Khánh
 Tạo git
 Header & Banner
 Khưu Minh Triết 
+Categories
+Features
+Posts

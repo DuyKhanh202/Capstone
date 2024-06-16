@@ -399,3 +399,48 @@ header#site-header {
  }
 
  /* FEATURES */
+
+ /* POSTS */
+
+ .post img {
+  border-radius: 7px;
+ }
+
+ .post .post__image a {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  text-decoration: none;
+  color: #ff6600;
+  transition: all .5s;
+ }
+
+ .post .post__image a:hover {
+  color: #5431ac;
+ }
+
+ .post .post__content a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+ }
+
+ .post .post__footer {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .post .post__footer a {
+  font-size: 1rem;
+  font-weight: bold;
+ }
+
+ .post__footer .post__right a {
+  color: rgb(56, 54, 54);
+ }
+
+ /* POSTS */
+
