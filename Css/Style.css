@@ -407,7 +407,7 @@ header#site-header {
   border-radius: 7px;
  }
 
- .post .post__image a {
+ .post .post__image a:nth-child(2) {
   position: absolute;
   left: 15px;
   bottom: 15px;
