@@ -280,9 +280,9 @@ header#site-header {
 
 /* CATEGORIES */
 
-/* .category {
-  background-color: white;
-} */
+.category {
+  background-color: rgb(247, 247, 247);
+}
 
 .category .img__slides {
   position: relative;
@@ -402,6 +402,10 @@ header#site-header {
  /* FEATURES */
 
  /* POSTS */
+
+ .post {
+  background-color: rgb(247, 247, 247);
+ }
 
  .post img {
   border-radius: 7px;
