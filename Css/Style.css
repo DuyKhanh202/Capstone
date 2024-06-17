@@ -445,7 +445,58 @@ header#site-header {
 
  /* POSTS */
 
+ /* TESTIMONIALS */
+
+ .testimonials .testimonial__content {
+  max-width: 700px;
+ }
+
+ .testimonials .testimonial__content img {
+  display: block;
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border-radius: 50%;
+ }
+
+ .testimonial__content i {
+  font-size: 1.5rem;
+  color: #ff6600;
+ }
+
+ .testimonial__content blockquote q {
+  font-size: 1.5rem;
+ }
+
+ .testimonial__content p {
+  font-size: 1.1rem;
+  color: rgb(136, 140, 148);
+ }
+
+ .testimonial__content .testimonial__top p {
+  line-height: 1.9rem;
+ }
+
+ .testimonial__content .testimonial__bottom h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+ }
+
+ .owl-theme .owl-dots button.owl-dot.active span, 
+ .owl-theme .owl-dots button.owl-dot:hover span {
+  background-color: #ff6600;
+ }
+
+ /* TESTIMONIALS */
+
  /* ****** RESPONSIVE *****  */
+ @media screen and (max-width: 675px) {
+  /* TESTIMONIALS */
+  .testimonial__content blockquote q {
+    font-size: 1.3rem;
+   }
+ }
+
  @media screen and (max-width: 800px) {
 
   /* CATEGORIES */
