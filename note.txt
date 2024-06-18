@@ -1,7 +1,10 @@
 Lê Nguyễn Duy Khánh
 Tạo git
-Header & Banner
-
+Header
+Banner
+About us
+Block
+Delicious
 Khưu Minh Triết 
 Categories
 Features
