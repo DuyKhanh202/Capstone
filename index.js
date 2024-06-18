@@ -29,3 +29,24 @@ function openOverlay() {
 function closeOverlay() {
   document.getElementById("overlay").classList.toggle("open");
 }
+
+//OWL CAROUSEL
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:false
+      },
+      600:{
+          items:1,
+          nav:false
+      },
+      1000:{
+          items:1,
+          nav:false
+      }
+  }
+})
