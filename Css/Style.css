@@ -486,6 +486,7 @@ header#site-header {
 .number_card .item_content {
   color: #c2d0da;
 }
+
 /* VIDEO */
 .video_blog {
   background-color: #232220;
@@ -560,6 +561,7 @@ div#small-dialog iframe {
 .mfp-close:active {
   top: -40px;
 }
+
 /**
      * Fade-zoom animation for first dialog
      */
@@ -598,3 +600,23 @@ div#small-dialog iframe {
   opacity: 0;
 }
 /* VIDEO */
+
+/* Back to Top */
+.back_to_top {
+  background-color: #ff6600;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.back_to_top a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
