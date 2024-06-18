@@ -493,6 +493,97 @@ header#site-header {
 
  /* TESTIMONIALS */
 
+ /* FOOTER */
+
+ footer {
+  background-color: black;
+ }
+
+ footer a {
+  text-decoration: none;
+ }
+
+ footer .footer__content {
+  color: #a5a2a1;
+ }
+
+ footer .footer__content h3.pb-3 a {
+  color: white;
+  transition: all .5s;
+ }
+
+ footer .footer__content h3.pb-3 a:hover {
+  color: #ff6600;
+ }
+
+ footer h4 {
+  color: white;
+  font-weight: 600;
+ }
+
+ footer .footer__content a i {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: white;
+  color: #ff6600;
+  border-radius: 7px;
+  transition: all .5s;
+ }
+
+ footer .footer__content a:hover i {
+  color: white;
+  background-color: #ff6600;
+ }
+
+ footer .footer__content p a {
+  color: #a5a2a1;
+  transition: all .5s;
+ }
+
+ footer .footer__content p a:hover {
+  color: #ff6600;
+ }
+
+ footer form input {
+  border: 1px solid transparent;
+ }
+
+ footer form input:focus {
+  border: 1px solid #ff6600;
+ }
+
+ footer form button {
+  font-weight: 600;
+  color: white;
+  background-color: #ff6600;
+ }
+
+ footer form button, footer form input {
+  height: 60px;
+  border-radius: 7px;
+  outline: none;
+ }
+
+ footer .footer__copyright {
+  border-top: 1px solid rgb(255, 255, 255, 5%);
+ }
+
+ footer .footer__copyright p {
+  color: #ddd;
+ }
+
+ .footer__copyright span {
+  color: #ff6600;
+  transition: all .5s;
+ }
+
+ .footer__copyright span:hover {
+  color: white;
+ }
+
+ /* FOOTER */
+
  /* ****** RESPONSIVE *****  */
  @media screen and (max-width: 675px) {
   /* TESTIMONIALS */
@@ -522,6 +613,17 @@ header#site-header {
 
   .post .post__footer a {
     font-size: 0.8rem;
+  }
+ }
+
+ @media screen and (max-width: 991.98px) {
+  /* FOOTER */
+  .footer__item:first-child, .footer__item:nth-child(2) {
+    margin-bottom: 35px;
+  }
+
+  .footer__copyright p {
+    text-align: center;
   }
  }
 
