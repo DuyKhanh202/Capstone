@@ -1,5 +1,8 @@
 Lê Nguyễn Duy Khánh
 Tạo git
-Header & Banner
-About us & Block
+Header
+Banner
+About us
+Block
+Delicious
 Khưu Minh Triết 
