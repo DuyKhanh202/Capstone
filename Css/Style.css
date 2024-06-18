@@ -648,3 +648,115 @@ header#site-header {
   }
  }
 
+/* START About us */
+.about_us {
+  background-color: white;
+}
+.about_us_content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.content_left .title_active {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #ff6600;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.content_left .title_sub {
+  color: #fff;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+}
+.content_right p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #c2d0da;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* START BLOCK */
+.block {
+  background-color: #ff6600;
+}
+.block_content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -100px;
+}
+.content_left .block_img {
+  background: url(../img/banner1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  min-height: 600px;
+}
+.content_left .block_img::before {
+  content: "";
+  background: rgb(16 15 19 / 46%);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.content_right .info_title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.content_right .info_subtitle {
+  color: #fff;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 600;
+}
+.content_right .block_subscribe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  grid-gap: 30px;
+}
+.subscribe_left .icon,
+.subscribe_right .icon {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  background: white;
+  line-height: 70px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.subscribe_left .icon,
+.subscribe_right .icon {
+  font-size: 25px;
+  color: #ff6600;
+  line-height: 70px;
+}
+.subscribe_left .left_content,
+.subscribe_right .right_content {
+  display: block;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.subscribe_left .icon:hover,
+.subscribe_right .icon:hover {
+  color: #ffc600;
+}

@@ -1,45 +1,31 @@
 document.getElementById("switchButton").onclick = function () {
-    //khi button được click thì tìm đến thẻ body có id là myBody
-    // dùng classlist để gọi thuộc tính class của thẻ body
-    //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
-    document.getElementById("myBody").classList.toggle("dark");
-    document.getElementById("myBody").classList.toggle("text-white");
-    document.getElementById("teamskills").classList.toggle("dark");
-    document.getElementById("teamskills").classList.toggle("text-white");
-    document.getElementById("about_team").classList.toggle("dark");
-    document.getElementById("about_team").classList.toggle("text-white");
-    // document.getElementById("footer_icon").classList.toggle("text-dark");
-    // let a = document.getElementById("footer_icon");
-    // console.log(a);
-    // document.getElementById("findUs").classList.toggle("dark");
-  };
-  
-  function openOverlay() {
-    document.getElementById("overlay").classList.toggle("open");
-  }
-  
-  function closeOverlay() {
-    document.getElementById("overlay").classList.toggle("open");
-  }
+  // Tìm thẻ <body> với thuộc tính id là myBody.
+  // Sử dụng classList để truy cập danh sách các lớp CSS (class) của thẻ <body>.
+  // Dùng phương thức toggle() để thêm hoặc xóa một lớp CSS.
+  // Nếu thẻ <body> chưa có lớp dark, toggle() sẽ thêm lớp dark vào thẻ <body>.
+  // Ngược lại, nếu thẻ <body> đã có lớp dark, toggle() sẽ xóa lớp dark khỏi thẻ <body>.
+  // Phương thức toggle() giúp thay đổi qua lại giữa hai trạng thái, giống như bật và tắt một công tắc.
 
-  //OWL CAROUSEL
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:false
-        },
-        600:{
-            items:1,
-            nav:false
-        },
-        1000:{
-            items:1,
-            nav:false
-        }
-    }
-})
-  
+  const elements = ["myBody", "teamskills", "about_team"];
+  elements.forEach(elementId => {
+      const element = document.getElementById(elementId);
+      if (element) {
+          element.classList.toggle("dark");
+          element.classList.toggle("text-white");
+      }
+  });
+
+  // Không có phần tử nào có id là "footer_icon" trong mã HTML hiện tại, 
+  // nên đoạn mã này đã được bình luận để tránh lỗi.
+  // document.getElementById("footer_icon").classList.toggle("text-dark");
+  // let a = document.getElementById("footer_icon");
+  // document.getElementById("findUs").classList.toggle("dark");
+};
+
+function openOverlay() {
+  document.getElementById("overlay").classList.toggle("open");
+}
+
+function closeOverlay() {
+  document.getElementById("overlay").classList.toggle("open");
+}
